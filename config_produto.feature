@@ -13,7 +13,8 @@ Cenário: Caminho feliz
 
 Cenário: Mais que 10 produtos
 
-        E tentar colocar mais que 10 produtos
+        E tentar colocar uma quantidade de produtos maior que 10
+        Quando clicar no botão comprar
         Então deverá aparecer um aviso: quantidade máxima excedida
 
 Cenário: Limpar pedido
